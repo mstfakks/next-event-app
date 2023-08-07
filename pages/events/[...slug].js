@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import EventList from "../../components/events/eventList";
+import EventList from "../../components/events/EventList";
 import ResultsTitle from "../../components/events/ResultsTitle";
 import { Fragment, useEffect, useState } from "react";
 import Button from "../../components/ui/Button";

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { getFeaturedEvents } from "../helpers/api-util";
-import EventList from "../components/events/eventList";
+import EventList from "../components/events/EventList";
 import NewsletterRegistration from "../components/input/NewsletterRegistration";
 
 export default function Home({ events }) {
