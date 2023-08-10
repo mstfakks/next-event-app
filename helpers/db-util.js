@@ -1,7 +1,12 @@
 import { MongoClient } from "mongodb";
+
+const userName = process.env.DB_USER;
+const password = process.env.DB_PASSWORD;
+const dbName = process.env.DB_NAME;
+
 export async function connectDatabase() {
   const client = await MongoClient.connect(
-    "mongodb+srv://mstfakks:M.581441.a@cluster0.dr31itw.mongodb.net/events?retryWrites=true&w=majority"
+    `mongodb+srv://${userName}:${password}@cluster0.dr31itw.mongodb.net/${dbName}?retryWrites=true&w=majority`
   );
   return client;
 }
