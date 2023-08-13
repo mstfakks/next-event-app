@@ -1,5 +1,7 @@
 # Next Event App
 
+## Live Project: [https://next-event-m66hkk294-mstfakks.vercel.app/](https://next-event-m66hkk294-mstfakks.vercel.app/)
+
 ## Project Description
 The event web application has been developed using Next.js. In this application, you can browse through events, view event details, and add your comments to relevant events. Additionally, you can observe comments posted by other users.
 
